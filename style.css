@@ -1,1 +1,102 @@
+body {
+  font-family: 'Heebo', 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(background.png);
+  background-color: #0d0a2cbf;
+}
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px;
+  background-image: url(Screenshot\ 2024-11-23\ at\ 3.00.31\ PM.png);
+  color: white;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+  list-style-type: none;
+  
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: #1abc9c;
+  animation: 2s;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  margin-right: 20px;
+  border-radius: 50%;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+#aboutdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 1180px;
+  background-color: #0d0a2cbf;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#content {
+  max-width: 600px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+#content h1 {
+  font-family: 'Dancing Script', 'Caveat', cursive;
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+#content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: white;
+}
+
+.baccha img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  #aboutdiv {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .baccha img {
+      margin-top: 2rem;
+  }
+}
