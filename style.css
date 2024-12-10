@@ -2,7 +2,7 @@ body {
   font-family: 'Heebo', 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(https://github.com/adarsh-priydarshi-5646/Sleep-Improvement-Guide/blob/main/background.png);
+  background-image: url(./background.png);
   background-color: #0d0a2cbf;
 }
 
@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding:20px;
-  background-image: url(https://github.com/adarsh-priydarshi-5646/Sleep-Improvement-Guide/blob/main/bgn.png);
+  background-image: url(./bgn.png);
   color: white;
   position: fixed;
   height: 50px;
@@ -101,7 +101,7 @@ body {
   max-width: 1200px; 
   margin: 20px auto;
   padding: 20px;
-  background-image: url(https://github.com/adarsh-priydarshi-5646/Sleep-Improvement-Guide/blob/main/bath.png);
+  background-image: url(./bath.png);
   background-color: #0d0a2cbf;
   border: 1px solid #0d0a2cbf;
   border-radius: 10px;
@@ -170,7 +170,7 @@ body {
   margin: 50px auto;
   padding: 20px;
   border-radius: 8px;
-  background-image: url(https://github.com/adarsh-priydarshi-5646/Sleep-Improvement-Guide/blob/main/bgn.png);
+  background-image: url(./bgn.png);
 }
 
 .text-content {
